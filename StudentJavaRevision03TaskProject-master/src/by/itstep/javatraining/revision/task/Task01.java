@@ -23,6 +23,7 @@ package by.itstep.javatraining.revision.task;
 
 public class Task01 {
     public static boolean task01(int x, int y) {
-        return false;
+
+        return x < 9 && x > 0 && y < 9 && y > 0 && (x + y) % 2 == 0;
     }
 }
