@@ -26,6 +26,8 @@ package by.itstep.javatraining.revision.task;
 
 public class Task02 {
     public static boolean task02(int x1, int y1, int x2, int y2) {
-        return false;
+
+        return x2 > 0 && y1 > 0 && y2 > 0 && x2 < 9 && y1 < 9 && y2 < 9 &&
+                x2 == x1 && y2 == y1 + 1;
     }
 }
